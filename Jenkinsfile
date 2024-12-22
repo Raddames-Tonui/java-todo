@@ -6,10 +6,7 @@ pipeline {
     }
 
 
-    environment {
-        VERSION_NUMBER = '1.0'
-    }
-
+   
     stages {
         stage('Clone repository') {
             steps {
