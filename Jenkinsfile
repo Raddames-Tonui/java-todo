@@ -27,7 +27,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing the project'
+                echo 'Testing the project in jenkins'
                 // withGradle() {
                     sh 'gradle test'
                 // }
