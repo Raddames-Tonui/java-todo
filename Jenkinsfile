@@ -11,7 +11,7 @@ pipeline {
         stage('Clone repository') {
             steps {
                 echo 'Cloning repository'
-                git 'https://github.com/Raddames-Tonui/java-todo.git'
+                git branch: 'master', url: 'https://github.com/Raddames-Tonui/java-todo.git'
             }
         }
         stage('Build ') {
